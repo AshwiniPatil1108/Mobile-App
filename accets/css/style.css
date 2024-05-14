@@ -1,0 +1,257 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+
+}
+.hero-section{
+	/* background-color:brown;	 */
+	background-image:linear-gradient(rgb(218, 51, 45, 0.5),rgb(218, 51, 45, 0.5)),url('../image/bgimg.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:100% 100%;
+	padding:45px 0 65px;
+	overflow:hidden;
+
+	
+}
+.navbar ul{
+	padding-top:10px;
+}
+.navbar ul li{
+	display:inline-block;
+	margin-left:10px;
+}
+.navbar ul li a{
+	padding:10px;
+	cursor:pointer;
+	color:white;
+	font-size:16px;
+	text-transform:uppercase;
+	font-weight:400px;
+	position:relative;
+	
+}
+.navbar ul li a::after{
+	content:'';
+	height:3px;
+	width:0;
+	position:absolute;
+	background-color:white;
+	left:0;
+	bottom:0;
+	transition: all 0.7s linear;
+}
+.navbar ul li a:hover::after{
+	width:100%;
+}
+.hero-section header{
+	margin-bottom:145px;
+}
+.chocolate-info h1{
+	font-size:52px;
+	font-weight:700px;
+	color:white;
+	margin-bottom:60px;
+	text-transform:uppercase;
+}
+.chocolate-info p{
+	font-size:36px;
+	font-weight:400px;
+	color:white;
+	margin-bottom:50px;
+}
+.chocolate-info a{
+	padding:15px 50px 15px 35px;
+	background-color:#282828;
+	border-radius:45px;
+	color:white;
+	text-transform:uppercase;
+}
+.chocolate-info a i{
+	font-size:45px;
+	margin-right:25px;
+	vertical-align:middle;
+}
+
+.mobimg{
+	position:relative;
+}
+
+.hero-section .mobimg img{
+	position:absolute;
+	right:20px;
+	top:-35px;
+}
+
+.app-features{
+	padding:85px 0 110px;
+}
+
+.features-heading h2{
+	margin-bottom:45px;
+	font-size:52px;
+	font-weight:bold;
+	color:#8a8a8a;
+	text-transform:uppercase;
+}
+
+.features-heading p{
+	margin-bottom:65px;
+	font-size:22px;
+	font-weight:400;
+	color:#3a3a3a;
+}
+
+.featuresInfo figure{
+	width:180px;
+	height:180px;
+	margin: 0 auto 35px;
+}
+
+.featuresInfo figure img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+
+.featuresInfo h3{
+	margin-bottom:45px;
+	font-size:24px;
+	font-weight:bold;
+	color:#1a1a1a;
+	text-transform:uppercase;
+}
+
+.featuresInfo p{
+	font-size:18px;
+	font-weight:400;
+	color:#646464;
+}
+
+
+.fruitSection{
+	padding:195px 0 170px;
+	background-image:url("../image/joker img.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	
+
+
+}
+.fruitInfo h1{
+	font-size:52px;
+	font-weight:bold;
+	color:#000000;
+	margin-bottom:50px;
+	text-transform:uppercase;
+	/* font-family:montserrat; */
+}
+.fruitInfo p{
+	font-size:24px;
+	font-weight:400px;
+	color:#585858;
+	margin-bottom:70px;
+	width:60%;
+}
+.fruitInfo a{
+	font-size:16px;
+	font-weight:bold;	
+	color:white;
+	background-color:#d9332d;
+	padding:18px 23px;
+	border-radius:40px;
+}
+.footerSection{
+	background-color:#2e2e38;
+	padding:120px 0 145px;
+}
+.footerSection .footer-logo{
+	margin-bottom:60px;
+}
+.footerList h4{
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+	margin-bottom:25px;
+}
+.footerList .box{
+	height:43px;
+	width:55px;
+	background-color:#e74c3c;
+}
+
+.footerList ul li{
+	display:table;
+	clear:both;
+	width:100%;
+	margin-bottom:25px;
+}
+
+.footerList ul li div{
+	float:left;
+}
+.footerList .boxInfo{
+	margin-left:15px;
+	padding-top:6px;
+}
+.footerList .boxInfo p{
+	font-size:15px;
+	font-weight:400;
+	color:white;
+	text-transform:capitalize;
+}
+.suittweeter ul li {
+	color:white;
+	font-size:14px;
+	font-weight:bold;
+	padding-top:6px;
+}	
+.suittweeter ul li p{
+	font-size:11px;
+	font-weight:400;	
+	padding-top:10px;
+}
+.suittweeter ul .pInfo{
+	font-size:15px;
+	font-weight:400;
+	padding-top:14px;
+}
+.footerList .aboutInfo{
+	font-size:15.3px;
+	font-weight:400;	
+	color:white;
+	font-style:italic;
+	width:70%;
+
+}
+footer{
+	background-color:#d7dedc;
+	padding:40px 0;
+	
+}
+.footerInfo p, .footerInfo .social-icon{
+	display:inline-block;
+}
+.footerInfo p{
+	color:#2e2e38;
+	font-size:25.46px;
+	font-weight:400px;
+	font-style:TimesNewRoman;
+	
+}
+.footerInfo p span{
+	margin:0 20px;
+	font-weight:bold;
+}
+.footerInfo p a{
+	color:#2e2e38;	
+}
+.social-icon a{
+	
+	margin-left:40px;
+	
+}
+`
